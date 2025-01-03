@@ -7,9 +7,22 @@
   /* primary/main color */
   --clr-primary-5: hsl(205, 78%, 60%);
 }
+@media screen and (max-width: 768px) {
+  .column {
+    float: left;
+    width: 100% !important; 
+  } 
+  
+  nav {
+    height: 7rem;
+    overflow: auto !important;
+  }
+}
 
 body {
   background-color: #ebebeb;
+  overflow-x: auto;
+  overflow-y: scroll;
   }
   
   .header {
@@ -21,15 +34,11 @@ span{
 }
   table{
     float: left;
-    display: flex;
+    /* display: flex; */
     font-family: "Pontano Sans";
     margin: 0 auto;   
-    width: 250px;
+    width: 30%;
     border: black 2px solid;
-  }
-
-  tr{
-    width: 250px;
   }
 
   td {
@@ -41,7 +50,7 @@ span{
   }
   nav {
     background: #fff;
-    height: 5rem;
+    height: 10%;
     display: grid;
     align-items: center;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -50,7 +59,7 @@ span{
     width: 90vw;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: center;  
     justify-content: space-between;
   }
 
@@ -77,12 +86,14 @@ span{
     color: #5c5c5c;
   }
 
-  
+  img {
+    max-width: 100%;
+  }
 
   button{
     margin-top: 5px;
     height:35px;
-    width:150px;
+    width:auto;
     font-size: 14px;
     background-color: #dbdbdb;
   }
@@ -102,6 +113,10 @@ span{
 .table-column {
   float: left;
   width: 33%;
+}
+
+.row {
+  width: 100%;
 }
 
 /* Clear floats after the columns */
