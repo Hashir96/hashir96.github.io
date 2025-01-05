@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="description" content="Picks a random Counter-Strike 2 case.">
+    <link rel="canonical" href="https://hashir96.github.io/cs2-case-randomizer/" />
+    <title>Counter-Strike 2 Case Randomizer</title>
+        <!-- GA4 -->
+        <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWE29L9XL0"></script>
+      <script>
+       window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-SWE29L9XL0');
+      </script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-center">
+      <h3 class="header">Hashir Anis</h3>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/Dota%20hero%20picker/">DotA 2 Hero Randomizer</a></li>
+        <li><a href="/CS%20Map%20Picker/">Counter-Strike Map Picker</a></li>
+        <li><a href="/cs-loadout-randomizer/">Counter-Strike Loadout Randomizer</a></li>
+        <li><a href="/cs2-case-randomizer/">Counter-Strike Case Randomizer</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container" align="center">
+        <h1>Counter-Strike 2 Case Randomizer</h1>
+        <p style="font-size: 18px;">Picks a random Counter-Strike 2 case.</p>
+        <div class="row" style="margin-top: 50px;">
+          <div class="column">
+            <h2>Prime drop pool</h2>
+            <p style="font-size: 18px;">Picks a case from the weekly drop pool. The drop pool contains the following cases: Kilowatt, Revolution, Recoil, Dreams & Nightmares and Fracture.</p>
+            <img id="active-img" class="image-box" src="./img/placeholder.png">
+            <h2 style="margin-top: 40px;">Case: <span class="selectedPrime"></span></h2>
+            <button class="btn-randomCase" id="btn-prime">Randomize Case</button>
+            </div>
+
+            <div class="column">
+              <h2>Rare & Prime drop Cases</h2>
+              <p style="font-size: 18px;">Picks a case that are either in the weekly drop pool or are a rare drop in the game. The only cases that are <b>NOT</b> included are: Operations Shattered Web, Operation Broken Fang, Operation Riptide, eSports 2014 Summer, eSports 2013 Winter and eSports 2013</p>
+              <img id="rare-img" class="image-box" src="./img/placeholder.png">
+              <h2 style="margin-top: 40px;">Case: <span class="selectedRare"></span></h2>
+              <button class="btn-randomCase" id="btn-rare">Randomize Case</button>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="column" style="margin-top: 50px;">
+                <h2>All Cases</h2>
+                <p style="font-size: 18px;">Picks a case from all the available cases in the game.</p>
+                <img id="map-img" class="image-box" src="./img/placeholder.png">
+                <h2 style="margin-top: 40px;">Case: <span class="selectedAll"></span></h2>
+              <button class="btn-randomCase" id="btn-all">Randomize Case</button>
+                  </div>
+              <div class="column" style="margin-top: 50px;">
+                <h2>Kek Degen Case Randomizer</h2>
+                <p style="font-size: 18px;">Case Randomizer curated for Kek.</p>
+                <img id="kek-img" class="image-box" src="./img/b49.gif">
+                <h2 style="margin-top: 40px;">Case: <span class="selectedKek"></span></h2>
+                <button class="btn-randomCase" id="btn-kek">Randomize Case</button>
+              </div>
+
+        </div>
+
+      </div>
+      
+    <script type="module" src="index.js"></script>
+</body>
+</html>
