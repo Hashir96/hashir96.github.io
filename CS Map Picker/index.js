@@ -6,10 +6,10 @@ const selectedMap = document.querySelector(".selectedMap");
 const selectedActive = document.querySelector(".selectedActive");
 
 const maps = ["Ancient","Anubis","Basalt","Dust 2","Edin","Inferno","Italy","Mirage","Nuke","Office","Overpass","Train","Vertigo"];
-const activeMaps = ["Ancient","Anubis","Dust 2","Inferno","Mirage","Nuke","Vertigo"];
+const activeMaps = ["Ancient","Anubis","Dust 2","Inferno","Mirage","Nuke","Train"];
 
 const mapImg = ['./img/de_ancient.png','./img/de_anubis.jpg','./img/de_basalt.png','./img/de_dust2.png','./img/de_edin.png','./img/de_inferno.png','./img/cs_italy.png','./img/de_mirage.png','./img/de_nuke.png','./img/cs_office.png','./img/de_overpass.png','./img/de_train.png','./img/de_vertigo.jpg'];
-const activeMapImg = ['./img/de_ancient.png','./img/de_anubis.jpg','./img/de_dust2.png','./img/de_inferno.png','./img/de_mirage.png','./img/de_nuke.png','./img/de_vertigo.jpg'];
+const activeMapImg = ['./img/de_ancient.png','./img/de_anubis.jpg','./img/de_dust2.png','./img/de_inferno.png','./img/de_mirage.png','./img/de_nuke.png','./img/de_train.png'];
 
 let randomIndex;
 let lastRandom = null;
