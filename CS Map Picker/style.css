@@ -18,7 +18,10 @@
     float: left;
     width: 100% !important; 
   } 
-
+  .image-box
+{
+  max-height: 50vw !important;
+}
   .text{
     margin-left: 10px !important;
     font-size: 1rem !important;
