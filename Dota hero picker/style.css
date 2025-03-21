@@ -8,6 +8,58 @@
   --clr-primary-5: hsl(205, 78%, 60%);
 }
 
+@media screen and (max-width: 768px) {
+  
+  nav {
+    height: 7rem !important;
+    overflow: auto !important;
+  }
+  .text{
+    margin-left: 10px !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: auto;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  white-space: wrap;
+  overflow: auto;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  padding: 12px 6px 12px 6px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin-right: 0rem;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
 body {
   background-color: #ebebeb;
   }
