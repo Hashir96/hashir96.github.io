@@ -1,28 +1,27 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	<url>
 		<loc>https://hashir96.github.io/</loc>
-		<lastmod>2024-12-26</lastmod>
+		<lastmod>2025-03-21</lastmod>
 		<priority>1.00</priority>
 	</url>
 	<url>
 		<loc>https://hashir96.github.io/Dota%20hero%20picker/</loc>
-		<lastmod>2024-12-26T19:15:53+00:00</lastmod>
+		<lastmod>2025-03-21</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://hashir96.github.io/CS%20Map%20Picker/</loc>
-		<lastmod>2024-12-26T19:15:53+00:00</lastmod>
+		<loc>https://hashir96.github.io/cs2-case-randomizer/</loc>
+		<lastmod>2025-03-21</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://hashir96.github.io/cs-loadout-randomizer/</loc>
-		<lastmod>2024-12-26T19:15:53+00:00</lastmod>
+		<lastmod>2025-03-21</lastmod>
 		<priority>0.80</priority>
 	</url>
 		<url>
-		<loc>https://hashir96.github.io/cs-loadout-randomizer/</loc>
-		<lastmod>2025-01-05</lastmod>
+		<loc>https://hashir96.github.io/CS%20Map%20Picker/</loc>
+		<lastmod>2025-03-21</lastmod>
 		<priority>0.80</priority>
 	</url>
 </urlset>
